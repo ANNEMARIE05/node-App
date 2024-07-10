@@ -5,7 +5,7 @@ import "../../../public/assets/static/todolist.css"
 export default function TodoList() {
     return(
         <>
-             <div class="container" >
+            <div className="container" >
                 <h1>BIENVENUE DANS TA TODOLIST</h1>
                 <form action="#!">
                     <input type="text" id="tache" placeholder="Entrez une nouvelle tâche ici " /> 
@@ -21,6 +21,7 @@ export default function TodoList() {
                     </tr>
                     </thead>
                     <tbody>
+
 
                     </tbody>
                 </table>
